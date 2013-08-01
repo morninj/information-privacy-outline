@@ -1,0 +1,42 @@
+\documentclass[letterpaper,titlepage]{article}
+\pagestyle{headings}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\Large\bfseries}{\S\ \thesection}{1em}{}
+\begin{document}
+
+\title{Information Privacy Law}
+\author{Joseph Mornin\\Berkeley Law School\\joseph@mornin.org}
+\date{Fall 2013\\Prof. Schwartz}
+\maketitle
+\tableofcontents
+\pagebreak
+
+\input{sections/introduction.tex}
+\newpage
+\input{sections/privacy-and-the-media.tex}
+\newpage
+\input{sections/privacy-and-law-enforcement.tex}
+\newpage
+\input{sections/health-privacy.tex}
+\newpage
+\input{sections/privacy-of-association-and-identity.tex}
+\newpage
+\input{sections/privacy-and-government.tex}
+\newpage
+\input{sections/privacy-of-financial-and-commercial-data.tex}
+\newpage
+\input{sections/international-privacy-law.tex}
+\newpage
+
+\end{document}
