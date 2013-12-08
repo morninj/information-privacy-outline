@@ -259,23 +259,38 @@ he voluntarily discloses to third parties.
 \subsubsection{The Communications Assistance for Law Enforcement Act}
 
 \begin{enumerate}
-    \item % TODO 328
-\end{enumerate}
-
-\subsubsection{The USA PATRIOT Act}
-
-\begin{enumerate}
-    \item % TODO 331
+    \item Telecom providers must assist legally authorized surveillance.
+    \item Networks must be designed to telecoms can intercept communications 
+    and provide them to law enforcement.
+    \item VoIP qualifies.
 \end{enumerate}
 
 \subsection{Digital Searches and Seizures}
 
-\subsection{Email---Interception vs. Storage: \emph{Steve Jackson Games v. 
+\subsubsection{Searching the Contents of Computers: \emph{United States v. 
+Andrus}}
+
+Third parties have apparent authority to consent to a search when an officer 
+reasonably but erroneously thinks the third-party has authority to consent.
+
+\begin{enumerate}
+    \item Is the consent of the father of the suspect valid to search the 
+    computer, even if the father didn't know the password? The officers used 
+    forensic tools to let them circumvent the password 
+    protection.\footnote{Casebook p. 336 ff.}
+    \item Valid third-party consent can arise through the third party's actual 
+    or apparent authority. The third party has apparent authority even when 
+    the officer erroneously thinks the third party has authority to consent.
+    \item Passwords on a computer are analogous to locks.
+    \item Officers reasonably believed the father had authority to consent.
+\end{enumerate}
+
+\subsubsection{Email---Interception vs. Storage: \emph{Steve Jackson Games v. 
 United States Secret Service}}
 
 The Wiretap Act's protection against ``interception'' does not apply to 
-stored electronic communications. ``Electronic storage'' under the Wiretap Act 
-does not include stored data.
+stored electronic communications. ``Electronic communication'' under the 
+Wiretap Act does not include stored data (so the SCA applies).
 
 \begin{enumerate}
     \item SJG operated a bulletin board that allowed users to exchange private 
@@ -309,8 +324,6 @@ does not include stored data.
     party. No warrant is required to get email stored with a third party.
 \end{enumerate}
 
-% TODO theofel v farey-jones 349-51
-
 \subsubsection{Privacy Expectations in Email Contents: \emph{United States v. 
 Warshak}}
 
@@ -339,89 +352,115 @@ has weighed in.)
     unwarranted.''\footnote{Casebook p. 352.}
 \end{enumerate}
 
-\subsubsection{ISP Records: \emph{United States v. Hambrick}}
-
-% TODO expand
+\subsubsection{REOP in ISP Records: \emph{United States v. Hambrick}}
+~\\\\
+Subscribers do not have a REOP in the subscription data they give to their 
+ISPs. Moreover, there is no exclusionary rule in the SCA---only damages 
+provisions.
 
 \begin{enumerate}
     \item An undercover detective subpoenaed an ISP to get subscriber data for 
     someone posting criminal messages in a chat room. The subpoena was 
-    invalid.
+    invalid, but the government still obtained the data.
     \item The defendant argued that ECPA creates a Fourth Amendment REOP in 
     subscriber data. The court disagreed.\footnote{Casebook pp. 358--59.}
-    \item There is no exclusionary rule here; civil damages are the only 
+    \item There is no exclusionary rule in the SCA; civil damages are the only 
     remedy.
 \end{enumerate}
 
-\subsubsection{\emph{McVeigh v. Cohen}}
+\subsubsection{Suppression: \emph{McVeigh v. Cohen}}
+~\\\\
+Suppression is warranted if the government breaks the law to get information 
+from a service provider.
 
-% TODO expand
-- navy used social engineering to get info from aol
-- navy ``asked'' without mcveigh ``telling''; mcveigh had a privacy 
-expectation in his online activity. i.e., his online activity didn't count as 
-``telling'' under DADT.
-- court granted a suppression remedy [?] bc gov't solicited [?] aol to break the 
-law. pp. 363--64.
+\begin{enumerate}
+    \item The Navy used social engineering to get information from AOL to 
+    investigate a don't ask, don't tell issue. McVeigh didn't ``tell,'' but 
+    the Navy launched a \enquote{search and `outing' mission} against him.
+    \item Held: the government violated ECPA by failing to obtain a subpoena. 
+    Moreover, it solicited AOL to break the law, since 18 U.S.C. \S\ 
+    2703(c)(1)(B) puts the burden on the service provider to withhold 
+    information from the government.\footnote{Casebook p. 363.}
+\end{enumerate}
 
-\subsubsection{IP Addresses and URLs: \emph{U.S. v. Forrester}}
+\subsubsection{No Suppression for IP Addresses and URLs: \emph{U.S. v. 
+Forrester}}
 
-% TODO expand
-
-- surveillance here: analogous to pen register; and no suppression remedy 
-under the pen register act
+\begin{enumerate}
+    \item The use of a pen register is not a Fourth Amendment 
+    search.\footnote{Casebook p. 366 ff.}
+    \item The collection of Internet metadata here was constitutionally 
+    indistinguishable from pen register collection. The Pen Register Act does 
+    not provide for suppression, so there was no suppression here.
+\end{enumerate}
 
 \subsubsection{Keylogging: \emph{United States v. Scarfo}}
 
-% TODO expand
+\begin{enumerate}
+    \item Agents installed a physical keylogger.
+    \item The keylogger was only activated when the modem was turned off, so 
+    it did not ``intercept'' a wire communication.
+\end{enumerate}
 
 \subsection{National Security and Foreign Intelligence}
 
-\subsubsection{Is National Security Different? \emph{United States v. United 
-States District Court} (the \emph{Keith} case)}
+\subsubsection{Warrants for Domestic Surveillance: \emph{United States v. 
+United States District Court} (the \emph{Keith} case)}
 
 \begin{enumerate}
-    \item % TODO 378
+    \item Three categories of domestic security activity:
+    \begin{enumerate}
+        \item Criminal investigations.
+        \item Domestic security investigations.
+        \item Foreign security investigations.
+    \end{enumerate}
+    \item Domestic surveillance for national security risks infringing 
+    ``privacy of speech,'' so a warrant is required.\footnote{Casebook p. 
+    380.}
+    \item Foreign surveillance for national security purposes may be 
+    different.\footnote{Casebook p. 381.}
 \end{enumerate}
 
 \subsubsection{Foreign Intelligence Surveillance Act (FISA)}
 
-\paragraph{\emph{Global Relief Foundation, Inc. v. O'Neil}} % TODO 388
+\paragraph{Overview}
 
 \begin{enumerate}
-    \item 
+    \item FISA applies when foreign intelligence gathering is a ``significant 
+    purpose'' of the investigation. (Otherwise, ECPA 
+    applies.)\footnote{Casebook p. 385--86.}
+    \item \textbf{National Security Letters}: the FBI can use them to get 
+    information from third parties, including under the Pen Register Act and 
+    SCA (but not the wiretap act). Includes a gag order provision.
 \end{enumerate}
 
-\paragraph{\emph{United States v. Isa}} % TODO 390
+\paragraph{Emergency Exception to FISA: \emph{Global Relief Foundation, Inc. 
+v. O'Neil}}
 
 \begin{enumerate}
-    \item 
+    \item The emergency FISA exception allows warrantless 
+    searches.\footnote{Casebook p. 388.}
 \end{enumerate}
 
-\paragraph{\emph{The 9/11 Commission Report}} % TODO 392
+\paragraph{The Wall: \emph{United States v. Isa}}
 
 \begin{enumerate}
-    \item 
+    \item FISA authorizes retention of evidence that is ``evidence of a 
+    crime.'' The crime need not be related to foreign intelligence---as long 
+    as foreign intelligence gathering was ``a significant purpose'' of the 
+    investigation.
 \end{enumerate}
 
-\paragraph{\emph{In re Sealed Case}} % TODO 397
+\paragraph{Foreign Intelligence as Criminal Evidence: \emph{In re Sealed 
+Case}}
 
 \begin{enumerate}
-    \item 
-\end{enumerate}
-
-\subsubsection{Attorney General's FBI Guidelines}
-
-\begin{enumerate}
-    \item % TODO 404
+    \item As long as a ``significant purpose'' of the investigation is 
+    gathering foreign intelligence, the evidence acquired can be used in a 
+    criminal case.\footnote{Casebook p. 397.}
 \end{enumerate}
 
 \subsubsection{NSA Surveillance Program}
-
-\paragraph{Overview} % TODO 407-409
-
-\begin{enumerate}
-    \item
-\end{enumerate}
 
 \paragraph{11/30/11 FISC Order, Judge Bates}
 
